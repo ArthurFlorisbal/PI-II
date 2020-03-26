@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,400,600,700,900';
+/* -----------------------
+  Presentational stuff 
+----------------------- */
+h1 {
+  font-weight: 900;
+  color: #7cffff;
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+/* -----------------------
+  Form 
+----------------------- */
+.form-control {
+  border-radius: 0;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+.form-group > label {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  pointer-events: none;
+  position: relative;
+  z-index: 5;
+}
+.form-group > input {
+  width: 100%;
+}
+.form-group > label {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scale(1.4) translateY(20px);
+          transform: scale(1.4) translateY(20px);
+}
+.form-group.not-empty > label {
+  -webkit-transform: none;
+          transform: none;
+}
+/*------------------------------
+	Form
+------------------------------*/
+.form-control {
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+}
+.form-control,
+.form-control:focus,
+.form-control:focus:hover {
+  color: #7cffff;
+  background: none;
+  outline: none;
+}
+.form-control:focus,
+.form-control:focus:hover {
+  border-bottom: 1px solid #7cffff;
+}
