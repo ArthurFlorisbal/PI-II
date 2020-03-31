@@ -1,0 +1,168 @@
+.centro {
+    margin: 0 auto;
+    width: 200px;
+    perspective: 1000px;
+  }
+  #botaocadastro {
+    cursor: hand;
+
+    background-image: radial-gradient(rgb(29, 0, 53), rgb(0, 9, 48));
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 1em 3em;
+    margin: 2em auto;
+    display: block;  
+  /*  transition: background .5s ease-in, transform .5s .25s ease-in-out;*/
+    transition: background .05s ease-in, transform .05s .05s ease-in-out;
+  }
+  #botaocadastro:hover {
+    background-image: radial-gradient(rgb(76, 0, 138), rgb(0, 24, 131));
+  /*  transform: scale(1.2);*/
+    transform: scale(1.009) ;
+  }
+
+
+  #btnav {
+    cursor: hand;
+
+    background-image: radial-gradient(rgb(29, 0, 53), rgb(0, 9, 48));
+    color: white;
+    border: none;
+
+
+  /*  transition: background .5s ease-in, transform .5s .25s ease-in-out;*/
+    transition: background .05s ease-in, transform .05s .05s ease-in-out;
+  }
+  #btnav:hover {
+    background-image: radial-gradient(rgb(76, 0, 138), rgb(0, 24, 131));
+  /*  transform: scale(1.2);*/
+    transform: scale(1.012) ;
+  }
+
+
+.imguser{
+  
+  width: 20px;
+  height: 20px;
+
+  border-radius: 55,55,55,55;
+
+}
+
+
+.main{
+
+  background-image: linear-gradient( #7566ff , #4db8ff);
+
+  background-repeat: repeat;
+
+  
+
+}
+
+
+ul.usericon {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+ul.usericon li {
+  display: inline;
+  margin: 0 10px;
+}
+.usericon a.icoUser:hover {
+  background-color: rgb(23, 0, 87);
+}
+
+
+.usericon a.icoUser:hover i {
+  color: #fff;
+}
+
+.userico li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.userico li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+.userico i {
+  color: #fff;
+
+}
+
+.userico a {
+  background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+  ul.usericon li {
+    display: inline;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  ul.usericon li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .userico li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .userico li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  ul.usericon li {
+    display: inline;
+    margin: 0 2px;
+  }
+
+  .userico li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .userico li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    
+  }
+}
